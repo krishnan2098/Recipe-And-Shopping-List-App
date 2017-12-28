@@ -16,4 +16,8 @@ ingredients: Ingredient [] = [
   ngOnInit() {
   }
 
+  pushShoppingItem(Item: Ingredient) {
+    this.ingredients.push(Item);
+  }
+
 }
